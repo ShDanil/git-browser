@@ -15,7 +15,7 @@ const Main = () => {
           setUserName(e.target.value)
         }}
       />
-      <button type="button" className="bg-indigo-500" onClick>
+      <button id="search-button" type="button" className="bg-indigo-500" onClick>
         <Link to={`/${userName}`}> Go </Link>
       </button>
     </div>

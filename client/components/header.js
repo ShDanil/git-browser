@@ -7,15 +7,15 @@ const Header = ({ repos }) => {
 
   if (repositoryName) {
     return (
-      <div>
+      <div id="repository-name">
         <img src={repos.avatar_url} alt="" />
         {userName} {repositoryName}
         <div>
-          <button type="button" className="bg-indigo-500" onClick>
+          <button id="go-back" type="button" className="bg-indigo-500" onClick>
             <Link to="/"> Home </Link>
           </button>
 
-          <button type="button" className="bg-indigo-500" onClick>
+          <button id="go-repository-list" type="button" className="bg-indigo-500" onClick>
             <Link to={`/${userName}`}> To replist </Link>
           </button>
         </div>
@@ -27,9 +27,9 @@ const Header = ({ repos }) => {
     return (
       <div>
         <img src={repos.avatar_url} alt="" />
-        <div>
+        <div id="repository-name">
           {userName}
-          <button type="button" className="bg-indigo-500" onClick>
+          <button id="go-back" type="button" className="bg-indigo-500" onClick>
             <Link to="/"> Home </Link>
           </button>
         </div>
