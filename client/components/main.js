@@ -7,6 +7,7 @@ const Main = () => {
   return (
     <div>
       <input
+        id="input-field"
         type="text"
         className="text-black"
         value={userName}
