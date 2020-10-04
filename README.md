@@ -4,7 +4,7 @@
 
 Browse user list of repositories
 
-[Heroku link](https://skillcrucial-12week-1.herokuapp.com/)
+[Heroku link](https://shdanil-git-browser.herokuapp.com/)
 
 ## Features
 
