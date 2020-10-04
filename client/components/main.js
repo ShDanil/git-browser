@@ -6,6 +6,7 @@ const Main = () => {
 
   return (
     <div>
+      <p>Repo name</p>
       <input
         id="input-field"
         type="text"
@@ -18,7 +19,7 @@ const Main = () => {
       <button
         id="search-button"
         type="button"
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full ml-5"
         onClick
       >
         <Link to={`/${userName}`}> Go </Link>

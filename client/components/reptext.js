@@ -3,7 +3,7 @@ import Markdown from 'markdown-to-jsx'
 
 const Reptext = (props) => {
   return (
-    <div id="description">
+    <div id="description" className="overflow-hidden">
       <Markdown>{props.repository}</Markdown>
     </div>
   )

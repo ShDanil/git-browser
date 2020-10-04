@@ -1,6 +1,5 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
-// import { history } from '../redux'
 
 const Header = ({ repos }) => {
   const { userName, repositoryName } = useParams()
@@ -65,9 +64,9 @@ const Header = ({ repos }) => {
     )
   }
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+    <nav className="flex items-center justify-center flex-wrap bg-teal-500 p-6">
       <div>
-        {userName} {repositoryName}
+        <p className="flex mx-auto "> GitHub Browser</p>
       </div>
     </nav>
   )

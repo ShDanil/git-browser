@@ -43,10 +43,10 @@ const Home = () => {
   }, [userName, repositoryName])
 
   return (
-    <div>
+    <div className="bg-green-100">
       <Header repos={user} />
-      <div className="flex items-center justify-center h-screen">
-        <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
+      <div className="flex items-center justify-center h-screen overflow-auto">
+        <div className=" bg-indigo-400 text-white font-bold rounded-lg border shadow-lg p-10">
           <Route exact path="/" component={() => <Main />} />
           <Route exact path="/:userName" component={() => <Replist repos={repos} />} />
           <Route
